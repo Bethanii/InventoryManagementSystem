@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<html>
+   <head>
+      <style>
+         h1 {
+            color: darkblue;
+            font-size: 20px;
+         }  
+         input[type="submit"] {
+            background-color: blue;
+            color: white;
+         }
+      </style>
+   </head>
+      <body>
+      <h1>Add New Item</h1>
+      <form method="post" action='Add_New_Item.php'>
+             <div>
+                Product ID: <input type="text" name="pid" />
+             </div>
+             <div>
+                Product Name: <input type="text" name="pname" />
+             </div>
+             <div>
+                Unit Price: <input type="text" name="uprice" />
+             </div>
+             <div>
+                Current Amount: <input type="text" name="camount" />
+             </div>
+             <div>
+                Reorder Amount: <input type="text" name="ramount" />
+             </div>
+        <input type="submit" value="Add Item">
+      </form>
+   </body>
+</html>
